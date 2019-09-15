@@ -1,0 +1,46 @@
+@charset "gb2312";
+#t_main {
+	font-size: 12px;
+	color: #333;
+	background-color: #FFF;
+	text-decoration: none;
+}
+a:link {
+	font-size: 13px;
+	color: #339;
+	text-decoration: none;
+	background-color: #E3E3E3;
+	border: 1px solid #999;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	line-height: 22px;
+}
+a:visited {
+	font-size: 13px;
+	color: #339;
+	text-decoration: none;
+	background-color: #E3E3E3;
+	border: 1px solid #999;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	line-height: 22px;
+}
+a:hover {
+	font-size: 13px;
+	color: #F60;
+	text-decoration: none;
+	background-color: #FFC;
+	border: 1px solid #F90;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	padding-left: 15px;
+	line-height: 22px;
+}
+.changbg:hover{
+	background-color:#EBEEF3;
+}

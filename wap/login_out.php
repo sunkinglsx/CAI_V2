@@ -1,0 +1,5 @@
+<?php
+	session_start();
+	session_destroy();//Ïú»Ù×¢Ïú
+	header("location:index.php");	
+?>

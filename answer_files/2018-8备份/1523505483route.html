@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+#bar
+{
+	width:600px;
+	height:80px;
+	position:relative;
+	top:20px;
+	left:80px;
+}
+#item1,#item2,#item3
+{
+	width:150px;
+	height:30px;
+	line-height:30px;
+	color:#FFF;
+	position:absolute;
+	text-align:center;
+}
+#item1
+{
+	background-color:#999;
+	left:0px;
+	top:0px;
+}
+#item2
+{
+	background-color:#F30;
+	left:150px;
+	top:0px;
+}
+#item3
+{
+	background-color:#999;
+	left:300px;
+	top:0px;
+}
+#sj_1,#sj_2
+{
+	width:0px;
+	height:0px;
+	border-left-style:solid;
+	border-left-width:30px;
+	border-bottom-style:solid;
+	border-bottom-width:15px;
+	border-top-style:solid;
+	border-top-width:15px;
+	border-bottom-color:transparent;
+	border-top-color:transparent;
+	position:absolute;
+}
+#sj_1
+{
+	border-left-color:#999;
+	left:150px;
+	top:0;
+	z-index:1;
+}
+#sj_2
+{
+	border-left-color:#F30;
+	left:300px;
+	top:0px;
+	z-index:1;
+}
+</style>
+</head>
+
+<body>
+<div id="bar">
+	<div id="item1">后台管理</div>
+    <div id="sj_1"></div>
+    <div id="item2">作业管理</div>
+    <div id="sj_2"></div>
+    <div id="item3">发布作业</div>
+</div>
+</body>
+</html>

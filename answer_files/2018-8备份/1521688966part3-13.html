@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>菜单效果</title>
+<style type="text/css">
+.menu1{
+	width:100px;
+	height:30px;
+	line-height:30px;
+	background-color:#69C;
+	font-size:14px;
+	display:inline-block;
+	text-align:center;
+	position:relative;
+	-webkit-box-shadow:3px 3px 3px #CCC;
+}
+.menu1 a{
+	text-decoration:none;
+}
+.menu1:hover .pop{
+	display:block; 
+	position:absolute; 
+	top:30px; 
+	left:0; 
+	width:100px;
+}
+.pop{
+	display:none;
+	-webkit-box-shadow:3px 3px 3px #CCC;
+}
+.item{
+	display:block;
+	background-color:#CCF;
+	width:98px;
+	border:1px solid #9CF;
+}
+.item a{
+	text-decoration:none;
+}
+.item:hover{
+	background-color:#D3F5DC;
+}
+</style>
+</head>
+
+<body>
+<div class="menu1"><a href="#">学校概况</a>
+<div class="pop">
+	<div class="item"><a href="kd">历史沿革</a></div>
+	<div class="item"><a href="kd">校徽校训</a></div>
+	<div class="item"><a href="kd">校园风光</a></div>
+	<div class="item"><a href="kd">校园文化</a></div>
+</div>
+</div>
+<div class="menu1">学校新闻
+<div class="pop">
+	<div class="item">公告资讯</div>
+	<div class="item">教学科研</div>
+	<div class="item">学生活动</div>
+	<div class="item">交流互动</div>
+</div>
+</div>
+<div class="menu1">人才培养
+<div class="pop">
+	<div class="item">高职招生</div>
+	<div class="item">成人教育</div>
+	<div class="item">自主招生</div>
+	<div class="item">社会培训</div>
+</div>
+</div>
+<div class="menu1">就业就导
+<div class="pop">
+	<div class="item">实习指导</div>
+	<div class="item">就业资讯</div>
+	<div class="item">校企合作</div>
+	<div class="item">创新创业</div>
+</div>
+</div>
+</body>
+</html>

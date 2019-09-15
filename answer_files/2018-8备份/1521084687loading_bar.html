@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>进度条设计</title>
+<style>
+.loading_bar
+{
+	width:400px;
+	margin:0 auto;
+	font-size:20px;
+	color:#000;
+}
+#bar
+{
+	width:300px;
+	margin:20px auto;
+	border:1px solid #069;
+	height:30px;
+}
+#per{
+	background-color:#093;
+	height:30px;
+	float:left;
+}
+span{
+	height:30px;
+	line-height:30px;
+	position:relative;
+}
+</style>
+</head>
+
+<body>
+<div class="loading_bar" align="center">进度条设计
+	<div id="bar">
+    	<div id="per" style="width:50%;"></div>
+        <span style="left:-25%">50%</span>
+    </div>
+	<div id="bar">
+    	<div id="per" style="width:80%;"></div>
+        <span style="left:-40%">80%</span>
+    </div>
+	<div id="bar">
+    	<div id="per" style="width:33%;"></div>
+        <span style="left:-17%">33%</span>
+    </div>
+</div>
+
+</body>
+</html>
